@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rick-and-morti/static/css/main.945e5552.css",
+    "main.js": "/rick-and-morti/static/js/main.0cdfd16d.js",
+    "static/media/logo.svg": "/rick-and-morti/static/media/logo.79c3c235bbc707ab08cf0edc60a9a13d.svg",
+    "static/media/background.svg": "/rick-and-morti/static/media/background.725b1acd53b822ff5307.svg",
+    "static/media/person.svg": "/rick-and-morti/static/media/person.178d7d670dd9ad918f3e812d77bb6040.svg",
+    "static/media/logo2.svg": "/rick-and-morti/static/media/logo2.74a38802f44562cdbe6dc59a189733c5.svg",
+    "index.html": "/rick-and-morti/index.html",
+    "main.945e5552.css.map": "/rick-and-morti/static/css/main.945e5552.css.map",
+    "main.0cdfd16d.js.map": "/rick-and-morti/static/js/main.0cdfd16d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945e5552.css",
+    "static/js/main.0cdfd16d.js"
+  ]
+}
