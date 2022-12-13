@@ -1,0 +1,24 @@
+.cardBackground {
+    cursor: pointer;
+    width: 30%;
+    max-width: 265px;
+    height: 358px;
+    background: #232222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 80px 63px 0;
+    padding-top: 28px;
+}
+
+.cardImage {
+    max-width: 180px;
+    margin-bottom: 22px;
+}
+
+.cardName {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,37 @@
+.Character {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.CharacterImg {
+    width: 300px;
+    height: 300px;
+    margin-top: 16px;
+}
+
+.CharacterInfo {
+    text-align: left;
+    margin-left: 42px;
+    margin-top: 16px;
+}
+
+.CharacterName h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.CharacterAddInfo {
+    margin-top: 28px;
+}
+
+.AddInfo span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}

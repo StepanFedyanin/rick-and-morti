@@ -1,0 +1,88 @@
+.Form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.FormContent {
+    min-width: 436px;
+    min-height: 137px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    padding: 28px;
+}
+
+.FormTitle h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.FormBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FormEmail {
+    text-align: left;
+    margin-right: 37px;
+}
+
+.FormEmail input {
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 250px;
+    height: 38px;
+}
+
+.FormButton button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    min-width: 101px;
+    min-height: 38px;
+    background: #1DC985;
+    border: none;
+    position: relative;
+}
+
+.FormButton button:hover {
+    color: #1DC985;
+    background-color: #FFFFFF;
+}
+
+.FormButton button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid white;
+}
+
+.FormButton button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
+.FormEmail input:focus-visible,.FormEmail input:focus, .FormEmail input:active {
+    border: none;
+    outline:none;
+}

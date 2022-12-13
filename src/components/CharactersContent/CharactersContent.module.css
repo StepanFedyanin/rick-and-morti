@@ -1,0 +1,8 @@
+.CardCharacters {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+}
